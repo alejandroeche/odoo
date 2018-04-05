@@ -7,6 +7,7 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     l10n_co_document_type = fields.Selection([('rut', 'RUT'),
+                                              ('id_idcard'.'cédula de ciudadanía'),
                                               ('id_card', 'Tarjeta de Identidad'),
                                               ('passport', 'Pasaporte'),
                                               ('foreign_id_card', 'Cedula de Extranjeria'),
